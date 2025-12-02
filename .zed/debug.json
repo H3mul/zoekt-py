@@ -4,9 +4,15 @@
     "adapter": "Debugpy",
     "request": "launch",
     "program": "$ZED_WORKTREE_ROOT/debug.py",
-    "args": [
-      "search", "texture file:RHIFwd.h"
-    ],
+    "args": ["search", "texture"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "label": "Debug zoektpy list",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/debug.py",
+    "args": ["list"],
     "cwd": "$ZED_WORKTREE_ROOT"
   }
 ]
