@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Debug zoektpy search",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/debug.py",
+    "args": [
+      "search", "texture file:RHIFwd.h"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  }
+]
